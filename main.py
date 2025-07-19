@@ -40,7 +40,7 @@ async def main():
         model=model
     )
 
-    result = await Runner.run(agent, "write a hindi song lyrics of pal pal", run_config=config)
+    result = await Runner.run(agent, "write a counting from 1 to 10", run_config=config)
     print(result.final_output)
 
 
